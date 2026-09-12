@@ -1,0 +1,32 @@
+.offline-badge{font-size:11px;border:1px solid #bbebcf;border-radius:20px;background:#effcf4;padding:3px 9px;color:#078644}
+.save-label{font-size:11px;color:#969ba5}
+.offline-row{display:flex;align-items:center;gap:5px;padding:12px 0;border-bottom:1px solid #eee}
+.offline-row-text{flex:1;min-width:0}.offline-row-text small{font-size:11px;color:#8a8f98;display:block}.offline-row-text span{display:block;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:340px}.offline-row .btn{padding:5px 8px}
+.offline-modal{position:fixed;inset:0;z-index:1000;background:#0005;display:flex;align-items:center;justify-content:center}.offline-modal>.s-card{width:500px;max-width:95vw}.offline-modal .form-input{margin:8px 0}
+.me-editor-body{display:flex;flex-direction:column;gap:12px}.me-inline-emojis,.me-emoji-grid{display:flex;flex-wrap:wrap;gap:5px;padding:8px;border:1px solid #e5e7eb;border-radius:8px;background:#fafafa}.me-inline-emojis button,.me-emoji-grid button{width:34px;height:34px;border:1px solid transparent;border-radius:6px;background:transparent;font-size:21px;cursor:pointer}.me-inline-emojis button:hover,.me-emoji-grid button:hover,.me-emoji-grid button.active{border-color:#07c160;background:#f0fdf4}.me-check{display:flex;align-items:center;gap:6px;margin:4px 0;font-size:12px;color:#62676f}.me-emoji-current,.me-card-avatar{width:58px;height:58px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#f3f4f6;font-size:34px;overflow:hidden}.me-emoji-current img,.me-card-avatar img{max-width:100%;max-height:100%;object-fit:contain}.offline-row.is-selected{border-radius:7px;background:#effcf4}.offline-row.is-dragging{opacity:.45}.offline-batch{display:flex;align-items:center;justify-content:space-between}.export-panel{display:flex;flex-direction:column;gap:14px}.export-settings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:end}.export-field{display:flex;min-width:0;flex-direction:column;gap:6px;font-size:12px;color:#666}.export-field>.me-select,.export-control>.me-input{height:40px}.export-control{position:relative;display:block}.export-control>.me-input{padding-right:58px}.export-control>.export-unit{position:absolute;top:0;right:14px;bottom:0;display:flex;width:32px;align-items:center;justify-content:flex-end;text-align:right;color:#9a9fa7;font-size:11px;line-height:1;pointer-events:none}.export-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.export-actions .btn{width:100%}.settings-actions{display:flex;justify-content:flex-end;margin-top:12px}
+.project-offline{display:flex;flex-direction:column;gap:10px}.project-actions{display:flex;flex-wrap:wrap;gap:7px}
+.avatar-name-input{width:100%;border:1px solid #e5e7eb;border-radius:6px;padding:4px 6px;font:inherit;font-size:12px;text-align:center}
+.me-chat-title{display:flex;align-items:center;gap:8px;margin-left:12px;color:#676d76;font-size:12px;white-space:nowrap}.me-chat-title>.me-input{width:260px;height:34px;padding:6px 10px}
+.me-sender-picker{min-width:0}
+.me-sender-label{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:12px;color:#525862}
+.me-sender-label span{font-size:11px;color:#9298a0}
+.me-sender-list{display:flex;flex-wrap:wrap;gap:10px;max-height:250px;overflow-y:auto;padding:2px}
+.me-sender-card{display:flex;flex:0 0 88px;flex-direction:column;align-items:center;gap:5px;padding:10px 8px 8px;min-width:0;border:1.5px solid transparent;border-radius:13px;background:#fafafa;color:#353a40;font:inherit;cursor:pointer}
+.me-sender-card:hover{border-color:#b4e7cb;background:#f7fcf9}
+.me-sender-card[aria-pressed=true]{border-color:#07c160;background:#effcf4;box-shadow:0 0 0 2px #07c1600d}
+.me-sender-card:focus-visible{outline:2px solid #07c160;outline-offset:2px}
+.me-sender-avatar{position:relative;width:48px;height:48px;margin-bottom:2px}
+.me-sender-avatar>img{display:block;width:100%;height:100%;border-radius:12px;object-fit:cover}
+.me-sender-check{position:absolute;right:-4px;bottom:-4px;display:grid;place-items:center;width:19px;height:19px;border:2px solid #fff;border-radius:50%;background:#07c160;color:#fff}
+.me-sender-name{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;font-weight:600}
+.me-sender-card small{font-size:10px;line-height:16px;color:#9298a0}
+.me-sender-card[aria-pressed=true] small{color:#078644}
+@media(max-width:720px){.export-settings,.export-actions{grid-template-columns:1fr}}
+.btn:disabled{opacity:.4;cursor:default}
+.me-editor-body{display:flex;flex-direction:column;gap:12px}
+.me-inline-emojis,.me-emoji-grid{display:flex;flex-wrap:wrap;gap:5px;padding:8px;border:1px solid #e5e7eb;border-radius:8px;background:#fafafa}
+.me-inline-emojis button,.me-emoji-grid button{width:34px;height:34px;border:0;border-radius:6px;background:transparent;font-size:20px;cursor:pointer}.me-inline-emojis button:hover,.me-emoji-grid button:hover,.me-emoji-grid button.active{background:#dcfce7;box-shadow:inset 0 0 0 1px #07c160}
+.me-emoji-current{min-width:54px;min-height:54px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#f5f5f5;font-size:34px}.me-emoji-current img{max-width:64px;max-height:64px;object-fit:contain}
+.me-check{display:flex;align-items:center;gap:7px;font-size:12px;color:#555}.me-card-avatar{width:54px;height:54px;display:flex;align-items:center;justify-content:center;border-radius:7px;background:#f2f2f2;overflow:hidden}.me-card-avatar img{width:100%;height:100%;object-fit:cover}
+.offline-row.is-selected{background:#effcf4}.offline-row[draggable=true]{cursor:grab}.offline-row.is-dragging{opacity:.45}.offline-batch{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+@media(max-width:1100px){.save-label{display:none}.app-header{padding:0 18px}.app-header h1{font-size:16px}.app-header-right{gap:5px}}

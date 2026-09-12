@@ -1,0 +1,11 @@
+本地离线版基于 gaopengbin/wechat-dialog-generator 的界面和组件进行适配；该项目 README 标注 License: MIT。
+
+功能对齐参考 Ele-Cat/vue3-wechat-tool。其 MIT 许可文本见 LICENSE-Ele-Cat.txt。
+
+前端依赖均随构建产物打包，不会从网络加载。
+
+v1.2 的 108 张微信表情 PNG 复用 Ele-Cat/vue3-wechat-tool/src/utils/emojiBase64.js。选择面板参考其 Emoji.vue，适配当前 React 编辑器，保留离线内嵌数据。其项目许可见 LICENSE-Ele-Cat.txt。
+
+GIF 编码使用 gif.js 0.2.0 的 GIFEncoder、LZWEncoder、TypedNeuQuant。保留原作者版权注释，许可见 LICENSE-gif.js.txt。为离线模块构建调整导出方式，修正上游非严格模式的隐式全局变量和 disposal 属性引用。
+
+1.3：领取提示的小红包及相关参考图标来自 Ele-Cat 原项目；打开红包与收款对勾按参考画面绘制为透明矢量图形。
